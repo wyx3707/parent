@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="ejb" url="file://$PROJECT_DIR$/spring-boot-starter-db/ejbs" />
+    <file type="javaeeApplication" url="file://$PROJECT_DIR$/spring-boot-starter-db/ear" />
+    <file type="web" url="file://$PROJECT_DIR$/char18" />
+    <file type="web" url="file://$PROJECT_DIR$/com.hy.web" />
+    <file type="web" url="file://$PROJECT_DIR$/delete" />
+    <file type="web" url="file://$PROJECT_DIR$/ffffffffffffffffff" />
+    <file type="web" url="file://$PROJECT_DIR$/logstarter" />
+    <file type="web" url="file://$PROJECT_DIR$/spring-boot-starter-db/servlets/servlet" />
+    <file type="web" url="file://$PROJECT_DIR$/spring-boot-starter-mybatis" />
+    <file type="web" url="file://$PROJECT_DIR$/spring-boot-starter-web" />
+    <file type="web" url="file://$PROJECT_DIR$/spring-boot-web" />
+    <file type="web" url="file://$PROJECT_DIR$/springbootdubbostarter" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/dubbo-start/pom.xml" />
+        <option value="$PROJECT_DIR$/springBoot/pom.xml" />
+        <option value="$PROJECT_DIR$/repository/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-starter-db/pom.xml" />
+        <option value="$PROJECT_DIR$/redis/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-starter-redis/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-starter-dubbo/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-service/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-service-api/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-repository/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-application/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-web/pom.xml" />
+      </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/_21020/pom.xml" />
+        <option value="$PROJECT_DIR$/d/pom.xml" />
+        <option value="$PROJECT_DIR$/delete/pom.xml" />
+        <option value="$PROJECT_DIR$/ffffffffffffffffff/pom.xml" />
+        <option value="$PROJECT_DIR$/mybatisspring/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-dubbo-starter/pom.xml" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_9" default="false" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
+</project>

@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="delete:war">
+    <output-path>$PROJECT_DIR$/delete/target</output-path>
+    <root id="archive" name="delete.war">
+      <element id="artifact" artifact-name="delete:war exploded" />
+    </root>
+  </artifact>
+</component>

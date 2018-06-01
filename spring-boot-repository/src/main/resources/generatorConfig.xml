@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE generatorConfiguration
+        PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN"
+        "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd">
+<generatorConfiguration>
+
+    <!--数据库驱动-->
+    <context id="DB2Tables" targetRuntime="MyBatis3">
+        <property name="javaFileEncoding" value="UTF-8"/>
+        <plugin type="com.ecej.mybatis.generator.SerializablePlugin"/>
+        <plugin type="com.ecej.mybatis.generator.LombokPlugin">
+            <!-- enable annotations -->
+            <property name="builder" value="false"/>
+            <property name="allArgsConstructor" value="false"/>
+            <property name="noArgsConstructor" value="true"/>
+        </plugin>
+        <commentGenerator type="com.ecej.mybatis.generator.MirCommentGenerator">
+            <property name="suppressDate" value="true"/>
+            <property name="suppressAllComments" value="false"/>
+        </commentGenerator>
+
+
+        <!--数据库链接地址账号密码-->
+        <jdbcConnection driverClass="com.mysql.jdbc.Driver" connectionURL="jdbc:mysql://10.4.89.151/ecejservice"
+                        userId="dev_user" password="123qweasd">
+        </jdbcConnection>
+        <javaTypeResolver type="com.ecej.mybatis.generator.MirJavaTypeResolver">
+            <property name="forceBigDecimals" value="false"/>
+        </javaTypeResolver>
+        <!--生成Model类存放位置-->
+        <javaModelGenerator targetPackage="com.hy.repository.po" targetProject="src\main\java">
+            <property name="enableSubPackages" value="true"/>
+            <property name="trimStrings" value="true"/>
+        </javaModelGenerator>
+        <!--生成映射文件存放位置-->
+        <sqlMapGenerator targetPackage="mybatis.mapper" targetProject="src\main\resources">
+            <property name="enableSubPackages" value="true"/>
+        </sqlMapGenerator>
+        <!--生成Dao类存放位置-->
+        <javaClientGenerator type="XMLMAPPER" targetPackage="com.hy.repository.mapper" targetProject="src\main\java">
+            <property name="enableSubPackages" value="true"/>
+        </javaClientGenerator>
+        <table tableName="material_info" domainObjectName="MaterialInfoPO"><generatedKey column="material_id" sqlStatement="JDBC" identity="true"/></table>
+        <table tableName="svc_service_item" domainObjectName="SvcServiceItemPO"><generatedKey column="service_item_id" sqlStatement="JDBC" identity="true"/></table>
+        <!--<table tableName="sys_app_version" domainObjectName="SysAppVersionPO"><generatedKey column="version_id" sqlStatement="JDBC" identity="true"/></table>-->
+        <!--<table tableName="svc_emp_income_detail" domainObjectName="SvcEmpIncomeDetailPO"><generatedKey column="income_detail_id" sqlStatement="JDBC" identity="true"/></table>-->
+        <!--<table tableName="svc_emp_income_item_detail" domainObjectName="SvcEmpIncomeItemDetail"><generatedKey column="income_item_detail_id" sqlStatement="JDBC" identity="true"/></table>-->
+
+
+    </context>
+</generatorConfiguration>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-starter-db/ear/ear.iml" filepath="$PROJECT_DIR$/spring-boot-starter-db/ear/ear.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-starter-db/ejbs/ejbs.iml" filepath="$PROJECT_DIR$/spring-boot-starter-db/ejbs/ejbs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-starter-db/projects/logging/logging.iml" filepath="$PROJECT_DIR$/spring-boot-starter-db/projects/logging/logging.iml" />
+      <module fileurl="file://$PROJECT_DIR$/parent.iml" filepath="$PROJECT_DIR$/parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-starter-db/primary-source/primary-source.iml" filepath="$PROJECT_DIR$/spring-boot-starter-db/primary-source/primary-source.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-starter-db/projects/projects.iml" filepath="$PROJECT_DIR$/spring-boot-starter-db/projects/projects.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-repository/repository.iml" filepath="$PROJECT_DIR$/spring-boot-repository/repository.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-starter-db/servlets/servlet/servlet.iml" filepath="$PROJECT_DIR$/spring-boot-starter-db/servlets/servlet/servlet.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-starter-db/servlets/servlets.iml" filepath="$PROJECT_DIR$/spring-boot-starter-db/servlets/servlets.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-repository/spring-boot-repository.iml" filepath="$PROJECT_DIR$/spring-boot-repository/spring-boot-repository.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-service/spring-boot-service.iml" filepath="$PROJECT_DIR$/spring-boot-service/spring-boot-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-service-api/spring-boot-service-api.iml" filepath="$PROJECT_DIR$/spring-boot-service-api/spring-boot-service-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-web/spring-boot-web.iml" filepath="$PROJECT_DIR$/spring-boot-web/spring-boot-web.iml" />
+    </modules>
+  </component>
+</project>

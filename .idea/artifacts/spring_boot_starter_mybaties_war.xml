@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="spring-boot-starter-mybaties:war">
+    <output-path>$PROJECT_DIR$/spring-boot-starter-mybaties/target</output-path>
+    <root id="archive" name="spring-boot-starter-mybaties.war">
+      <element id="artifact" artifact-name="spring-boot-starter-mybaties:war exploded" />
+    </root>
+  </artifact>
+</component>

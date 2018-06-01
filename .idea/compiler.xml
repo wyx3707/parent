@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="dubbo-start" />
+        <module name="dubbo-starter" />
+        <module name="ear" />
+        <module name="ejbs" />
+        <module name="log-starter" />
+        <module name="logging" />
+        <module name="primary-source" />
+        <module name="redis" />
+        <module name="repository" />
+        <module name="servlet" />
+        <module name="spring-boot-application" />
+        <module name="spring-boot-repository" />
+        <module name="spring-boot-service" />
+        <module name="spring-boot-service-api" />
+        <module name="spring-boot-starter-mybaties" />
+        <module name="spring-boot-web" />
+        <module name="springBoot" />
+        <module name="springbootdubbostarter" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="_21020" target="1.8" />
+      <module name="char18" target="1.8" />
+      <module name="com.hy" target="1.8" />
+      <module name="com.hy.provider" target="1.5" />
+      <module name="com.hy.web" target="1.5" />
+      <module name="delete" target="1.8" />
+      <module name="demo" target="1.8" />
+      <module name="dubbo-start" target="1.8" />
+      <module name="dubbo-starter" target="1.8" />
+      <module name="ear" target="1.5" />
+      <module name="ejbs" target="1.5" />
+      <module name="ffffffffffffffffff" target="1.8" />
+      <module name="log-starter" target="1.8" />
+      <module name="logging" target="1.5" />
+      <module name="mybatisspring" target="1.8" />
+      <module name="parent" target="1.8" />
+      <module name="primary-source" target="1.5" />
+      <module name="projects" target="1.5" />
+      <module name="redis" target="1.8" />
+      <module name="repository" target="1.8" />
+      <module name="servlet" target="1.5" />
+      <module name="servlets" target="1.5" />
+      <module name="spring-boot-application" target="1.8" />
+      <module name="spring-boot-dubbo-starter" target="1.8" />
+      <module name="spring-boot-rabbitmq-common" target="1.8" />
+      <module name="spring-boot-rabbitmq-prover" target="1.8" />
+      <module name="spring-boot-rabbitmq-t" target="1.8" />
+      <module name="spring-boot-repository" target="1.8" />
+      <module name="spring-boot-service" target="1.8" />
+      <module name="spring-boot-service-api" target="1.8" />
+      <module name="spring-boot-starter-db" target="1.5" />
+      <module name="spring-boot-starter-dubbo" target="1.5" />
+      <module name="spring-boot-starter-logs" target="1.8" />
+      <module name="spring-boot-starter-mybaties" target="1.8" />
+      <module name="spring-boot-starter-mybatis" target="1.8" />
+      <module name="spring-boot-starter-redis" target="1.8" />
+      <module name="spring-boot-starter-web" target="1.8" />
+      <module name="spring-boot-web" target="1.8" />
+      <module name="springBoot" target="1.8" />
+      <module name="springbootdubbostarter" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
