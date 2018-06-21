@@ -11,14 +11,12 @@ import javax.servlet.http.HttpServletRequest;
 
 /**
  * 自定义的参数解析器
+ * ps：实现HandlerMethodArgumentResolver
  *
  * @author wyx
  */
 public class CustomArgsResolver implements HandlerMethodArgumentResolver {
-
-
     private final static String TOKEN = "token";
-
     /**
      * 用于判定是否需要处理该参数分解，返回true为需要，并会去调用下面的方法resolveArgument
      *
@@ -29,9 +27,7 @@ public class CustomArgsResolver implements HandlerMethodArgumentResolver {
     public boolean supportsParameter(MethodParameter methodParameter) {
         //判断在参数中是否存在User类型的形参，如果有为true， 没有为false
         return methodParameter.hasParameterAnnotation(User.class);
-
     }
-
     /**
      * 从访问的参数中，做附加的操作
      *
