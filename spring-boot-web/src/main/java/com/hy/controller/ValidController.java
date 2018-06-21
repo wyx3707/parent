@@ -1,5 +1,6 @@
 package com.hy.controller;
 
+import com.hy.returnpack.ReturnVO;
 import com.hy.vo.ValidVO;
 import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -25,11 +26,11 @@ public class ValidController {
      * @return
      */
     @RequestMapping("/valid")
-    public String validator(@Valid ValidVO validVO, BindingResult bindingResult) {
+    public ReturnVO validator(@Valid ValidVO validVO, BindingResult bindingResult) {
         if (bindingResult.hasErrors()) {
-            return "参数化错误";
+            return ReturnVO.error("参数化错误,不可通过VLV");
         }
-        return "ok";
+        return ReturnVO.ok("参数验证正确，可通过 ^v^"+validVO.getAge()+"==="+validVO.getName());
     }
 
 
